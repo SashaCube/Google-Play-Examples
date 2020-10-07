@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_in_app_rating">
+
+    <fragment
+        android:id="@+id/nav_in_app_rating"
+        android:name="com.cube.googleplay.examples.ui.in_app_rating.InAppRatingFragment"
+        android:label="@string/menu_rating"
+        tools:layout="@layout/fragment_in_app_rating" />
+
+</navigation>
